@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Static Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+  <style>
+    * {
+      background: #FAF7F2;
+    }
+
+    .card {
+      width: 350px;
+      height: 200px;
+      border-radius: 25px;
+      background: linear-gradient(315deg, #e6e6e6, #ffffff);
+      box-shadow: -20px -20px 60px #d9d9d9,
+        20px 20px 60px #ffffff;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    .content {
+      padding: 20px;
+      background: transparent;
+    }
+
+    .card:hover {
+      border-radius: 25px;
+      background: #ffffff;
+      box-shadow: inset -20px -20px 60px #d9d9d9,
+        inset 20px 20px 60px #ffffff;
+    }
+
+    .img {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      margin-left: 20px;
+    }
+
+    h1 {
+      color: #aaa;
+      letter-spacing: 1px;
+      font-size: 40px;
+      text-align: center;
+      margin: 30px 0px 10px 0;
+    }
+
+    h3 {
+      color: black;
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 300;
+      font-size: 25px;
+      letter-spacing: 1px;
+      margin: 5px 0px;
+    }
+
+    p {
+      color: #aaa;
+    }
+
+    h3,
+    p {
+      background: transparent;
+      font-weight: 300;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Calendly <i class="far fa-calendar-alt"></i></h1>
+  <div class="container">
+    <div class="card">
+      <div>
+        <image class="img" src="https://d27028dliefpk3.cloudfront.net/static/team/masai-team/isha.jpg" />
+      </div>
+
+      <div class="content">
+        <h3>Isha Kataria</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <image class="img" src="https://d27028dliefpk3.cloudfront.net/static/team/masai-team/swati_tyagi.jpg" />
+      <div class="content">
+        <h3>Swati Tyagi</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <image class="img" src="https://d27028dliefpk3.cloudfront.net/static/team/masai-team/gargi.png" />
+      <div class="content">
+        <h3>Gargi Schrawat</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <image class="img" src="https://d27028dliefpk3.cloudfront.net/static/team/masai-team/swati_tyagi.jpg" />
+      <div class="content">
+        <h3>Swati Tyagi</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <image class="img" src="https://d27028dliefpk3.cloudfront.net/static/team/masai-team/isha.jpg" />
+      <div class="content">
+        <h3>Isha Kataria</h3>
+        <p>
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
