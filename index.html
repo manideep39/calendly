@@ -10,6 +10,10 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous" />
   <style>
+    :root {
+      --radius: 18px;
+    }
+
     * {
       background: #FAF7F2;
     }
@@ -23,7 +27,7 @@
     .card {
       width: 350px;
       height: 200px;
-      border-radius: 25px;
+      border-radius: var(--radius);
       background: linear-gradient(315deg, #e6e6e6, #ffffff);
       box-shadow: -20px -20px 60px #d9d9d9,
         20px 20px 60px #ffffff;
@@ -47,7 +51,7 @@
     }
 
     .card:hover {
-      border-radius: 25px;
+      border-radius: var(--radius);
       background: #ffffff;
       box-shadow: inset -20px -20px 60px #d9d9d9,
         inset 20px 20px 60px #ffffff;
